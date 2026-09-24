@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saint Malo RP</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#050914;
+    color:white;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding:60px 8%;
+    background:
+      linear-gradient(90deg,#050914 20%,rgba(5,9,20,.75),rgba(5,9,20,.35)),
+      url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=2000&q=80")
+      center/cover;
+}
+
+.content{max-width:850px}
+
+.logo{
+    font-size:25px;
+    font-weight:bold;
+    letter-spacing:4px;
+    color:#62b7ff;
+}
+
+h1{
+    font-size:clamp(65px,10vw,130px);
+    line-height:.85;
+    margin:45px 0 30px;
+    font-weight:900;
+}
+
+h1 span{color:#55aaff}
+
+h2{
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+p{
+    color:#c4ccda;
+    font-size:20px;
+    line-height:1.6;
+    max-width:700px;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    margin-top:40px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    padding:18px 30px;
+    border-radius:15px;
+    font-weight:bold;
+}
+
+.play{
+    background:linear-gradient(120deg,#7deaff,#3479ef);
+}
+
+.discord{
+    border:1px solid #596477;
+}
+
+@media(max-width:700px){
+    .hero{padding:40px 25px}
+    h1{font-size:70px}
+    h2{font-size:23px}
+    p{font-size:17px}
+    .buttons{flex-direction:column}
+    a{text-align:center}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="content">
+
+        <div class="logo">SAINT MALO RP</div>
+
+        <h1>
+            SAINT<br>
+            <span>MALO RP.</span>
+        </h1>
+
+        <h2>Écris ton histoire. Vis ton rôle.</h2>
+
+        <p>
+            Bienvenue sur Saint Malo RP, une expérience
+            RolePlay française immersive sur Roblox.
+            Rejoins notre communauté et construis ton histoire.
+        </p>
+
+        <div class="buttons">
+            <a class="play" href="#">JOUER MAINTENANT ▶</a>
+            <a class="discord" href="#">REJOINDRE DISCORD</a>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
